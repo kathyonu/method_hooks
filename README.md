@@ -4,6 +4,27 @@
 
 Allows you to add `before`, `around`, and `after` callbacks to **any** method.
 
+> Fork Addition : We highly recommend you do NOT fork our fork of the method_hooks gem.  
+We are researching this gem for our possible use and so this respository can change rapidly or disappear.  
+Any and all improvements we can see to make will be pushed to the original respository at [fbonetti/method_hooks](https://github.com/fbonetti/method_hooks) , and so those are the codes you want to be looking at and using if you like this gem.
+
+> **Unanswered Questions** :
+
+> Before method_hooks is used, you could add these callbacks only to : ( what were limitations before method_hooks ).  
+After method_hoods is used, you can add these callback to ANY Ruby method.  Yes, it is a wild claim making this gem valuable indeed.
+
+> The first question this poses is, what were limitations before method_hooks ?  
+What methods could not sustain a callback hook ?  
+Why ? 
+
+> Before method_hooks is used, you cannot run a callback on a method such as, `bad = Mybad.example` , if that is correct ?? because why ???
+
+> After method_hooks is used, you can run a callback on `good = Good.example` because method_hooks will .. do what ?? provide a wrapper ??? where is the wrapper ? or other-named active code that hooks onto any PORO. (plain old Ruby objects)
+
+> The method_hooks gemm methods can benefit our app in what way ? After I figure that out, I will explain a few use cases here.
+
+> We now return to Original Material untouched by us.
+
 ## Installation
 
 Add this line to your application's Gemfile:
