@@ -21,7 +21,7 @@ Why ?
 
 > After method_hooks is used, you can run a callback on `good = Good.example` because method_hooks will .. do what ?? provide a wrapper ??? where is the wrapper ? or other-named active code that hooks onto any PORO. (plain old Ruby objects)
 
-> The method_hooks gemm methods can benefit our app in what way ? After I figure that out, I will explain a few use cases here.
+> The method_hooks gem methods can benefit our app in what way ? After I figure that out, I will explain a few use cases here.
 
 > We now return to Original Material untouched by us.
 
